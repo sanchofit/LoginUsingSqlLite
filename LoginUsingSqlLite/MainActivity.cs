@@ -13,8 +13,6 @@ namespace LoginUsingSqlLite
     [Activity(Label = "LoginUsingSqlLite", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
-
         EditText txtusername;
         EditText txtPassword;
         Button btncreate;
